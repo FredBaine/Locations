@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col-xs-4"><h4>Select Warehouse: </h4></div>
+	<div class="col-xs-4">
+		<select name="cboWhs" id="cboWhs">
+			<option value="999999" <% if (SETTINGS.WHS == '999999') { %>selected='selected' <% } %>>None</option>
+		<% _.each(WAREHOUSES, function(whs) { %>
+				<option value='<%= whs.WHS %>'
+				<% if (SETTINGS.WHS == whs.WHS) { %>selected='selected' <% } %>
+				><%= whs.NAME %></option>
+		  <% }); %>
+	</select>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-4"><h4>Current Warehouse: </h4></div>
+	<div class="col-xs-4"><h4><%= SETTINGS.WHS %></h4></div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-4"><h4>Number of Locations:</h4></div>
+	<div class="col-xs-4 text-right"><h4><%= LOCATIONS.length %></h4></div>
+<!--- 	<div class="col-xs-4"><input type="button" id="btnClear" value="Clear Locations" class="btn btn-primary"></div> --->
+	<div class="col-xs-4">
+		<input type="button" id="btnUpload" value="Upload Locations" class="btn btn-primary"></div>
+</div>

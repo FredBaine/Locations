@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://svn/svn/project"
+   revision="1107"
+   last-author="fbaine"
+   url="http://svn/svn/project/AppsTest/mm/bootstrap/js"
+   committed-rev="1107"
+   kind="dir"
+   committed-date="2015-01-12T20:48:44.885000Z"/>
+<entry
+   name="bootstrap.js"
+   checksum="3f0c5a5f186e8aaa48ab29b12a012ae3"
+   last-author="fbaine"
+   text-time="2014-11-21T20:57:24.896000Z"
+   committed-rev="1107"
+   kind="file"
+   committed-date="2015-01-12T20:48:44.885000Z"/>
+<entry
+   name="bootstrap.min.js"
+   checksum="2616d3564578d8f845813483352802a9"
+   last-author="fbaine"
+   text-time="2014-11-21T20:57:24.904000Z"
+   committed-rev="1107"
+   kind="file"
+   committed-date="2015-01-12T20:48:44.885000Z"/>
+<entry
+   name="npm.js"
+   checksum="ccb7f3909e30b1eb8f65a24393c6e12b"
+   last-author="fbaine"
+   text-time="2014-11-21T20:57:24.907000Z"
+   committed-rev="1107"
+   kind="file"
+   committed-date="2015-01-12T20:48:44.885000Z"/>
+</wc-entries>

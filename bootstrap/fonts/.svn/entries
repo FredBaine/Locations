@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://svn/svn/project"
+   name=""
+   revision="1107"
+   last-author="fbaine"
+   url="http://svn/svn/project/AppsTest/mm/bootstrap/fonts"
+   committed-rev="1107"
+   kind="dir"
+   committed-date="2015-01-12T20:48:44.885000Z"/>
+<entry
+   name="glyphicons-halflings-regular.eot"
+   checksum="7ad17c6085dee9a33787bac28fb23d46"
+   last-author="fbaine"
+   text-time="2014-11-21T20:57:24.871000Z"
+   committed-rev="1107"
+   kind="file"
+   committed-date="2015-01-12T20:48:44.885000Z"
+   prop-time="2015-01-12T20:33:23.886000Z"/>
+<entry
+   name="glyphicons-halflings-regular.svg"
+   checksum="ff423a4251cf2986555523dfe315c42b"
+   last-author="fbaine"
+   text-time="2014-11-21T20:57:24.876000Z"
+   committed-rev="1107"
+   kind="file"
+   committed-date="2015-01-12T20:48:44.885000Z"/>
+<entry
+   name="glyphicons-halflings-regular.ttf"
+   checksum="e49d52e74b7689a0727def99da31f3eb"
+   last-author="fbaine"
+   text-time="2014-11-21T20:57:24.881000Z"
+   committed-rev="1107"
+   kind="file"
+   committed-date="2015-01-12T20:48:44.885000Z"
+   prop-time="2015-01-12T20:33:23.613000Z"/>
+<entry
+   name="glyphicons-halflings-regular.woff"
+   checksum="68ed1dac06bf0409c18ae7bc62889170"
+   last-author="fbaine"
+   text-time="2014-11-21T20:57:24.884000Z"
+   committed-rev="1107"
+   kind="file"
+   committed-date="2015-01-12T20:48:44.885000Z"
+   prop-time="2015-01-12T20:33:24.614000Z"/>
+</wc-entries>

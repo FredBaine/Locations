@@ -1,0 +1,105 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+body {
+  height: 100%;
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+#divLocationDetail {
+	position: fixed;
+	width: 100%;
+	top: 50;
+	padding-top: 20;
+	padding-left: 15px;
+	background-color: #fff;
+	z-index: 999;
+    transition: all .25s ease-out;
+}
+
+#divLocationDetail.row {
+    transition: all .25s ease-out;
+}
+
+.uppercase { text-transform: uppercase;}
+
+.table-headings-left { left: 0; }
+
+#divLocationsTable {
+	position: relative;
+	top: 40;
+}
+
+#divLocationsTable .table-headings {
+	position: fixed;
+	top: 107;
+	background-color: #fff;
+	z-index: 999;
+    transition: all .25s ease-out;
+}
+
+.icon-bar {
+	background-color: #fff;
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+
+.icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+
+.settings-button {
+    border-color: #333;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    margin-top: 8px;
+    padding: 9px 10px;
+    position: relative;
+}
+
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    margin-top: -70px;
+    padding: 20px;
+    width: 50%; /* 6 columns */
+  }
+
+  .slidRight {
+  	left: 50%;
+  }
+
+  .navbar {
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+  

@@ -1,0 +1,32 @@
+<div class="row">
+	<div class="col-xs-2"><h4>Whs: </h4></div>
+	<div class="col-xs-2">
+	  <button class="btn btn-default dropdown-toggle" type="button" id="whsDropDown" data-toggle="dropdown">
+    <%= SETTINGS.WHS %>-<%= SETTINGS.NAME %>
+    <span class="caret"></span>
+  </button>
+<ul class="dropdown-menu ulWhs" role="menu" aria-labelledby="dropdownMenu1">
+		<% _.each(WAREHOUSES, function(whs) { %>
+				<li><a href="#" data-whs="<%= whs.WHS %>"><%= whs.WHS %> - <%= whs.NAME %></a></li>
+		  <% }); %>
+  </ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-2"><h4>Locations:</h4></div>
+	<div class="col-xs-2 text-right"><h4><%= LOCATIONS.length %></h4></div>
+<!--- 	<div class="col-xs-4"><input type="button" id="btnClear" value="Clear Locations" class="btn btn-primary"></div> --->
+</div>
+
+<div class="row">
+	<div class="col-xs-2">
+		<input type="button" id="btnUpload" value="Upload Locations" class="btn btn-primary"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-2">
+		<input type="button" id="btnClear" value="Clear Locations" class="btn btn-primary">
+	</div>
+</div>
