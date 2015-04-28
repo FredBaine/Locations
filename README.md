@@ -1,0 +1,2 @@
+# Locations
+Capture Bale Locations
